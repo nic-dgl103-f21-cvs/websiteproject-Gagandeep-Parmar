@@ -7,6 +7,7 @@ body {
     background-size:cover;
     background-attachment: fixed;
     color: white;
+    margin: 0;
   }
   header {
     display: flex;
@@ -67,20 +68,29 @@ body {
     margin: auto;
   }
 
-  .service{
+  article.arrange {
     display: flex;
     justify-content: center;
     width: 200px;
     margin: auto;
-    margin-top: 30px;
-   
+  }
+
+  article.arrange button{
+    width: 200px;
     padding: 30px;
     border-radius: 20px;
     color: white;
+
+  }
+  section.serving{
+    text-align: center;
   }
 
-  
-
+  section.serving ul {
+    display: flex;
+    list-style-type: none;
+    justify-content:space-around;
+  }
   div h2{
     text-align: center;
   }
@@ -99,32 +109,15 @@ body {
     flex-direction: column;
   }
 
-  #serving {
-    display: flex;
-    width: 1200px;
-    margin: auto;
-    flex-direction: column;
-    justify-content: center;
-
-    
-  }
-
   footer {
-    display: flex;
-    clear: both;
     background-color:#379fa9;
     color: white;
-    align-content: space-between;
     padding: 70px;
     
     
   }
   footer .wrapper {
     display: flex;
-    width: 500px;
-    margin: auto;
-    margin-top: 10px;
-   
-    
-   
+    justify-content: space-around;
+  
   }

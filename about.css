@@ -7,6 +7,7 @@ body {
     background-size:cover;
     background-attachment: fixed;
     color: white;
+    margin: 0;
   }
   header {
     display: flex;
@@ -57,22 +58,22 @@ body {
     margin: auto;
   }
 
-  article h4{
+  article h3{
       text-align: center;
   }
   
- article h2{
+  article h2{
      text-align: center;
  }
 
- article p{
+  article p{
      text-align: center;
      width: 800px;
      margin: auto;
      padding: 25px;
  }
 
- article ul{
+  article ul{
      text-align:center;
      list-style-type: none;
      margin: 0;
@@ -82,18 +83,15 @@ justify-content: center;
 flex-direction: column;
  }
 
-  footer {
-    display: flex;
-    clear: both;
-    background-color: #379fa9;
-    color: white;
-    align-content: space-between;
-    padding: 70px;
-  }
-  footer .wrapper {
-    display: flex;
-    width: 500px;
-    margin: auto;
-    margin-top: 10px;
-  }
+ footer {
+  background-color:#379fa9;
+  color: white;
+  padding: 70px;
   
+  
+}
+footer .wrapper {
+  display: flex;
+  justify-content: space-around;
+
+}

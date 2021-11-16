@@ -7,6 +7,7 @@ body {
     background-size:cover;
     background-attachment: fixed;
     color: white;
+    margin: 0;
 }
 header {
   display: flex;
@@ -61,7 +62,7 @@ article h2 {
   text-align: center;
 }
 
-article {
+article .wrapper {
   display: flex;
   flex-direction: row;
   width: 1200px;
@@ -77,16 +78,14 @@ article .service {
 }
 
 footer {
-  display: flex;
-  clear: both;
-  background-color: #379fa9;
+  background-color:#379fa9;
   color: white;
-  align-content: space-between;
   padding: 70px;
+  
+  
 }
 footer .wrapper {
   display: flex;
-  width: 500px;
-  margin: auto;
-  margin-top: 10px;
+  justify-content: space-around;
+
 }
