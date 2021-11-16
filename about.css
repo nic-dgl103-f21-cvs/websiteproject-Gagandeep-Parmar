@@ -1,9 +1,12 @@
 body {
     font-family: Arial, "Helvetica", sans-serif;
     font-size: 16px;
-    background-image: url();
-    background-repeat: no-repeat;
-    background-size: contain;
+    background-image: url(https://images.squarespace-cdn.com/content/v1/581d96c8b3db2b4ee656fbb9/1484561524179-IMJG7JH0YOYEFWV1F0LX/Websitebackground5.jpg?format=2500w);
+    background-repeat:no-repeat;
+    background-color: #379fa9;
+    background-size:cover;
+    background-attachment: fixed;
+    color: white;
   }
   header {
     display: flex;
@@ -82,7 +85,7 @@ flex-direction: column;
   footer {
     display: flex;
     clear: both;
-    background-color: grey;
+    background-color: #379fa9;
     color: white;
     align-content: space-between;
     padding: 70px;
