@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Gagandeep's Website Project-Island Best Floor Maintenance</title>
     <link rel="icon" href="images/IBFMfavicon.png" type="image/x-icon" />
     <link rel="stylesheet" href="home.css" />
@@ -21,14 +22,15 @@
     </header>
 
     <nav>
-      <div class="navigation">
+      <div class="menu-label">Menu</div>
         <ul>
           <li><a href="house_cleaning.html">House Cleaning</a></li>
           <li><a href="commercial_cleaning.html">Commercial</a></li>
           <li><a href="about.html">About</a></li>
           <li><a href="contact.html">Contact</a></li>
         </ul>
-      </div>
+        <a class="toggle" onclick="showNav()"><i class="fa fa-bars"></i></a>
+    
     </nav>
 
     <main>
@@ -42,13 +44,13 @@
             ><img
               src="images/anton-SnKfmC1I9fU-unsplash.jpg"
               alt="Cleaning"
-              height="700"
+              height="auto"
               width="1200"
           /></a>
         </figure>
       </div>
 
-      <div>
+      <div class="c">
         <h2>Cleaning Services</h2>
         <p>
           Island Best Floor Maintenance Cleaning Service has been cleaning homes
@@ -59,12 +61,14 @@
           cleaning company based in Comox Valley, Vancouver Island, BC.
         </p>
       </div>
+      <div>
       <article class="arrange">
-        <button><a href="house_cleaning.html">House Cleaning</a></button>
+        <button><a href="house_cleaning.html">House Cleaning</a></button>&nbsp;
         <button>
           <a href="commercial_cleaning.html">Commercial Cleaning</a>
         </button>
       </article>
+      </div>
 
       <section class="serving">
         <h2>Proudly Serving</h2>
@@ -97,21 +101,21 @@
           </a>
         </div>
         <div>
-          <h4>Quick Links</h4>
+          <h3>Quick Links</h3>
           <ul>
             <li><a href="about.html">About Us</a></li>
             <li><a href="contact.html">Contact Us</a></li>
           </ul>
         </div>
         <div>
-          <h4>Services</h4>
+          <h3>Services</h3>
           <ul>
             <li><a href="house_cleaning.html">House Cleaning</a></li>
             <li><a href="commercial_cleaning.html">Commercial Cleaning</a></li>
           </ul>
         </div>
         <div>
-          <h4>Contact</h4>
+          <h3>Contact</h3>
           <ul>
             <li>
               <b> Address:</b>
@@ -124,6 +128,14 @@
           </ul>
         </div>
       </div>
+
+      <h4><em> Disclaimer-  “This is a fictional website that was designed and coded as an educational exercise. It is not intended to be seen outside of the class environment. None of the content and images were approved by the business owner.”</em></h4>
     </footer>
+    <script>
+      function showNav() {
+        var element = document.getElementById("nav-items");
+        element.classList.toggle("show-items");
+      }
+    </script>
   </body>
 </html>

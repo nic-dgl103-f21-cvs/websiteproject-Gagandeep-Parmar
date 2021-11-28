@@ -50,6 +50,7 @@ main h2 {
   width: 1200px;
   margin: auto;
   padding: 30px;
+  color: black;
 }
 #mainfigure {
   text-align: center;
@@ -88,4 +89,9 @@ footer .wrapper {
   display: flex;
   justify-content: space-around;
 
+}
+
+footer h4{
+  width: 1200px;
+  margin: auto;
 }

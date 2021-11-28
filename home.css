@@ -19,10 +19,13 @@ body {
     margin: 30px;
     padding: 20px;
   }
-  nav .navigation {
-    width: 1200px;
-    margin: auto;
+  
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  nav .menu-label {
+    display: none;
   }
+
   nav {
     background-color: #f3f3f4;
   }
@@ -47,17 +50,16 @@ body {
   }
 
   main h2 {
-    width: 1200px;
-    margin: auto;
+   
     padding: 30px;
   }
   .mobile {
     display: flex;
-    justify-content: center;
+    justify-content:center;
     width: 200px;
     margin: auto;
-    padding: 30px;
-    border-radius: 20px;
+    padding: 10px;
+    border-radius: 40px;
     color: white;
   }
 
@@ -76,12 +78,16 @@ body {
   }
 
   article.arrange button{
-    width: 200px;
+    width: 400px;
     padding: 30px;
-    border-radius: 20px;
+    border-radius: 50px;
     color: white;
-
   }
+
+  main div h2{
+    text-align: center;
+  }
+
   section.serving{
     text-align: center;
   }
@@ -91,9 +97,7 @@ body {
     list-style-type: none;
     justify-content:space-around;
   }
-  div h2{
-    text-align: center;
-  }
+  
 
   div p{
     text-align: center;
@@ -118,6 +122,26 @@ body {
   }
   footer .wrapper {
     display: flex;
-    justify-content: space-around;
+    justify-content:space-evenly;
   
   }
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  nav ul,
+  main {
+    width: 1200px;
+    margin: 0 auto;
+  }
+}
+}
+
+.cleaningservice{
+  background-color: rgba(1, 33, 145, 0.6);
+  padding: 50px;
+  text-align: center;
+}
+
+footer h4{
+  width: 1200px;
+  margin: auto;
+}

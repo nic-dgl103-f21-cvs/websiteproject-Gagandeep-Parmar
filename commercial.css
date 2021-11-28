@@ -89,3 +89,8 @@ body {
     justify-content: space-around;
   
   }
+
+  footer h4{
+    width: 1200px;
+    margin: auto;
+  }
