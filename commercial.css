@@ -94,3 +94,17 @@ body {
     width: 1200px;
     margin: auto;
   }
+  
+section .more{
+  width: 1000px;
+  margin: auto;
+  text-align: center;
+  padding: 20px;
+}
+
+div p{
+  text-align: center;
+  width: 800px;
+  margin: auto;
+}
+

@@ -78,6 +78,24 @@ article .service {
 
 }
 
+article h3{
+  text-align: center;
+}
+
+section .more{
+  width: 1000px;
+  margin: auto;
+  text-align: center;
+  padding: 20px;
+}
+
+div p{
+  text-align: center;
+  width: 800px;
+  margin: auto;
+}
+
+
 footer {
   background-color:#379fa9;
   color: white;
@@ -95,3 +113,5 @@ footer h4{
   width: 1200px;
   margin: auto;
 }
+
+ 
