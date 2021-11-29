@@ -1,248 +1,252 @@
-body {font-family: 'Fredoka One', cursive;
-    font-size: 16px;
-    background-image: url(https://images.squarespace-cdn.com/content/v1/581d96c8b3db2b4ee656fbb9/1484561524179-IMJG7JH0YOYEFWV1F0LX/Websitebackground5.jpg?format=2500w);
-    background-repeat:no-repeat;
-    background-color: #379fa9;
-    background-size:cover;
-    background-attachment: fixed;
-    color: white;
-    margin: 0;
-  }
-p{
-  font-family: 'Crimson Pro', serif;
+/* style applied to whole body*/
+body {
+  font-family: "Fredoka One", cursive;
+  font-size: 16px;
+  background-image: url(https://images.squarespace-cdn.com/content/v1/581d96c8b3db2b4ee656fbb9/1484561524179-IMJG7JH0YOYEFWV1F0LX/Websitebackground5.jpg?format=2500w);
+  background-repeat: no-repeat;
+  background-color: #379fa9;
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+  margin: 0;
 }
 
-  header {
-    display: flex;
-    padding: 5px;
-    width: 1200px;
-    margin: auto;
-  }
-  h1 {
-    margin: 30px;
-    padding: 20px;
-  }
-  
+/*second font family applied*/
+p {
+  font-family: "Crimson Pro", serif;
+}
 
-  nav .menu-label {
-    display: none;
-  }
+/*flex added in header */
+header {
+  display: flex;
+  padding: 5px;
+  width: 1200px;
+  margin: auto;
+}
+h1 {
+  margin: 30px;
+  padding: 20px;
+}
 
-  nav {
-    background-color: #f3f3f4;
-  }
+/*background color of nav*/
+nav {
+  background-color: #f3f3f4;
+}
 
-  nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: end;
-  }
-  nav li a {
-    padding: 15px;
-    display: inline-block;
-    text-decoration: none;
-    color: #191645;
-  }
+/*styles added to nav and its list*/
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: end;
+}
+nav li a {
+  padding: 15px;
+  display: inline-block;
+  text-decoration: none;
+  color: #191645;
+}
 
-  nav li a:hover {
-    background-color: #379fa9;
-    color: white;
-  }
+/*hover style in nav*/
+nav li a:hover {
+  background-color: #379fa9;
+  color: white;
+}
 
-  main h2 {
-   
-    padding: 30px;
-  }
-  .mobile {
-    display: flex;
-    justify-content:center;
-    width: 200px;
-    margin: auto;
-    padding: 10px;
-    border-radius: 40px;
-    color: white;
-    
+/*padding added to main*/
+main h2 {
+  padding: 30px;
+}
 
-  }
+/*styles added to class mobile*/
+.mobile {
+  display: flex;
+  justify-content: center;
+  width: 200px;
+  margin: auto;
+  padding: 10px;
+  border-radius: 40px;
+  color: white;
+}
+/*styles added to id mainfigure*/
+#mainfigure {
+  text-align: center;
+  padding: 25px;
+  width: 1200px;
+  margin: auto;
+}
 
-  #mainfigure {
-    text-align: center;
-    padding: 25px;
-    width: 1200px;
-    margin: auto;
-  }
+div .c {
+  padding: 20px;
+}
 
-  div .c{
-   padding: 20px;
-  }
+section h2 {
+  text-align: center;
+}
 
+/*styles added to class wrapper*/
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  width: 1200px;
+  margin: auto;
+}
 
-  section h2 {
-    text-align: center;
-  }
+/*styles added to class service*/
+.service {
+  display: flex;
+  width: 500px;
+  margin: auto;
+  margin-top: 10px;
+}
 
-   .wrapper {
-    display: flex;
-    flex-direction: row;
-    width: 1200px;
-    margin: auto;
-  }
-  .service {
-    display: flex;
-    width: 500px;
-    margin: auto;
-    margin-top: 10px;
-  }
-
-  #p {
-     width: 300px;
-     margin: auto;
-  
-     margin-bottom: 20px;
-  }
-
-  #q {
-    width: 300px;
-    margin: auto;
-   
-    margin-bottom: 20px;
- }
- #r{
+/*styles added to id p*/
+#p {
   width: 300px;
   margin: auto;
- 
+
   margin-bottom: 20px;
 }
 
-section h3{
+/*styles added to id q*/
+#q {
+  width: 300px;
+  margin: auto;
+
+  margin-bottom: 20px;
+}
+
+/*styles added to id r*/
+#r {
+  width: 300px;
+  margin: auto;
+
+  margin-bottom: 20px;
+}
+
+section h3 {
   text-align: center;
 }
 
+/*styles added to class arrange*/
+article.arrange {
+  display: flex;
+  justify-content: center;
+  width: 200px;
+  margin: auto;
+}
+/* styling the button*/
+article.arrange button {
+  width: 400px;
+  padding: 30px;
+  border-radius: 50px;
+  color: white;
+  margin-bottom: 50px;
+}
 
-  article.arrange {
-    display: flex;
-    justify-content: center;
-    width: 200px;
-    margin: auto;
-  }
-
-  article.arrange button{
-    width: 400px;
-    padding: 30px;
-    border-radius: 50px;
-    color: white;
-    margin-bottom: 50px;
-  }
-
-  main div h2{
-    text-align: center;
-  }
-
-  section.serving{
-    text-align: center;
-    padding: 50px;
-  }
-
-  section.serving ul {
-    display: flex;
-    list-style-type: none;
-    justify-content:space-around;
-    gap: 10px;
-  }
-  
-
-  section .more{
-    width: 1000px;
-    margin: auto;
-    text-align: center;
-    padding: 20px;
-  }
-
-  div p{
-    text-align: center;
-    width: 800px;
-    margin: auto;
-  }
-
-h2{
+main div h2 {
   text-align: center;
 }
-  
-  
 
-  main div {
-    display: flex;
-    flex-direction: column;
-  }
+/*styles added to class serving*/
+section.serving {
+  text-align: center;
+  padding: 50px;
+}
 
-  footer {
-    background-color: rgba(5, 77, 90);
-    color: white;
-    padding: 70px;
-    
-    
-  }
-  footer .wrapper {
-    display: flex;
-    justify-content:space-evenly;
-  
-  }
- 
-  nav ul,
-  main {
-    width: 1200px;
-    margin: 0 auto;
-  }
+section.serving ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+  gap: 10px;
+}
 
+/*styles added to class more*/
+section .more {
+  width: 1000px;
+  margin: auto;
+  text-align: center;
+  padding: 20px;
+}
 
+div p {
+  text-align: center;
+  width: 800px;
+  margin: auto;
+}
 
-.cleaningservice{
+h2 {
+  text-align: center;
+}
+
+main div {
+  display: flex;
+  flex-direction: column;
+}
+
+/*styling the footer*/
+footer {
+  background-color: rgba(5, 77, 90);
+  color: white;
+  padding: 70px;
+}
+
+/*styles added to class wrapper*/
+footer .wrapper {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+nav ul,
+main {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+/*styles added to class cleaningservice*/
+.cleaningservice {
   background-color: rgba(1, 33, 145, 0.6);
   padding: 50px;
   text-align: center;
 }
 
-footer h4{
+/* changing heading 4 inside footer*/
+footer h4 {
   width: 1200px;
   margin: auto;
 }
 
-li a{
+/*styles added to links inside footer*/
+li a {
   text-decoration: none;
-  color:burlywood;
-  
+  color: burlywood;
 }
 
-
-button a{
+button a {
   text-decoration: none;
   color: darkslategray;
 }
 
-li a :hover{
+li a :hover {
   color: #f3f3f4;
 }
 
-button a :hover{
+button a :hover {
   color: red;
 }
 
-.cs{
+.cs {
   background-color: rgba(5, 77, 90, 0.8);
   gap: 5px;
 }
 
-.abcd{
+.abcd {
   background-color: rgba(5, 77, 90, 0.8);
   gap: 5px;
 }
 
-.yz{
+.yz {
   background-color: rgba(5, 77, 90, 0.8);
   gap: 5px;
 }
-
-
-  
