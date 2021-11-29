@@ -100,3 +100,12 @@ footer h4{
   width: 1200px;
   margin: auto;
 }
+
+li a{
+  text-decoration: none;
+  color:darkslategray;
+  
+}
+li a :hover{
+  color: #f3f3f4;
+}

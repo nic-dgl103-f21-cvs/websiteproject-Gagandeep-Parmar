@@ -114,4 +114,19 @@ footer h4{
   margin: auto;
 }
 
- 
+li a{
+  text-decoration: none;
+  color:darkslategray;
+  
+}
+li a :hover{
+  color: #f3f3f4;
+}
+
+button a{
+  text-decoration: none;
+  color: darkslategray;
+}
+button a :hover{
+  color: red;
+}

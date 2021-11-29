@@ -61,6 +61,8 @@ body {
     padding: 10px;
     border-radius: 40px;
     color: white;
+    
+
   }
 
   #mainfigure {
@@ -204,4 +206,24 @@ h2{
 footer h4{
   width: 1200px;
   margin: auto;
+}
+
+li a{
+  text-decoration: none;
+  color:darkslategray;
+  
+}
+
+
+button a{
+  text-decoration: none;
+  color: darkslategray;
+}
+
+li a :hover{
+  color: #f3f3f4;
+}
+
+button a :hover{
+  color: red;
 }
