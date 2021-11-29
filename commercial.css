@@ -85,7 +85,7 @@ body {
   }
   
   footer {
-    background-color:#379fa9;
+    background-color: rgba(5, 77, 90);
     color: white;
     padding: 70px;
     
@@ -117,7 +117,8 @@ div p{
 
 li a{
   text-decoration: none;
-  color:darkslategray;
+  color:burlywood;
+  
   
 }
 li a :hover{
@@ -140,4 +141,10 @@ button a :hover{
   width: 1200px;
   margin: auto;
   margin-bottom: 25px;
+}
+
+button{
+  padding: 5px;
+  border-radius: 20px;
+  margin-top: 30px;
 }
