@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, "Helvetica", sans-serif;
+  font-family: 'Fredoka One', cursive;
     font-size: 16px;
     background-image: url(https://images.squarespace-cdn.com/content/v1/581d96c8b3db2b4ee656fbb9/1484561524179-IMJG7JH0YOYEFWV1F0LX/Websitebackground5.jpg?format=2500w);
     background-repeat:no-repeat;
@@ -9,6 +9,10 @@ body {
     color: white;
     margin: 0%;
   }
+  p{
+    font-family: 'Crimson Pro', serif;
+  }
+  
   header {
     display: flex;
     padding: 5px;
@@ -128,4 +132,12 @@ button a{
 }
 button a :hover{
   color: red;
+}
+
+#contrast{
+  background-color: rgba(5, 77, 90, 0.8);
+  gap: 5px;
+  width: 1200px;
+  margin: auto;
+  margin-bottom: 25px;
 }

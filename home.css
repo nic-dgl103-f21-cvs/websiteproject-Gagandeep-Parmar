@@ -1,4 +1,4 @@
-body {font-family: 'Anton', sans-serif;
+body {font-family: 'Fredoka One', cursive;
     font-size: 16px;
     background-image: url(https://images.squarespace-cdn.com/content/v1/581d96c8b3db2b4ee656fbb9/1484561524179-IMJG7JH0YOYEFWV1F0LX/Websitebackground5.jpg?format=2500w);
     background-repeat:no-repeat;
@@ -8,6 +8,10 @@ body {font-family: 'Anton', sans-serif;
     color: white;
     margin: 0;
   }
+p{
+  font-family: 'Crimson Pro', serif;
+}
+
   header {
     display: flex;
     padding: 5px;
@@ -228,12 +232,12 @@ button a :hover{
 }
 
 .cs{
-  background-color: rgba(55, 159, 169,0.8);
+  background-color: rgba(5, 77, 90, 0.8);
   gap: 5px;
 }
 
 .abcd{
-  background-color: rgba(55, 159, 169,0.8);
+  background-color: rgba(5, 77, 90, 0.8);
   gap: 5px;
 }
 
@@ -241,3 +245,6 @@ button a :hover{
   background-color: darkcyan;
   gap: 5px;
 }
+
+
+  
