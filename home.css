@@ -23,8 +23,7 @@ p{
     padding: 20px;
   }
   
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
+
   nav .menu-label {
     display: none;
   }
@@ -190,15 +189,14 @@ h2{
     justify-content:space-evenly;
   
   }
-  /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
+ 
   nav ul,
   main {
     width: 1200px;
     margin: 0 auto;
   }
-}
-}
+
+
 
 .cleaningservice{
   background-color: rgba(1, 33, 145, 0.6);

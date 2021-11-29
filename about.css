@@ -1,6 +1,8 @@
 body {
-  font-family: 'Fredoka One', cursive;
-    font-size: 16px;
+    background: #2980b9;
+    color: #fff;
+    font-family: 'Fredoka One', cursive;
+    margin: 0;
     background-image: url(https://images.squarespace-cdn.com/content/v1/581d96c8b3db2b4ee656fbb9/1484561524179-IMJG7JH0YOYEFWV1F0LX/Websitebackground5.jpg?format=2500w);
     background-repeat:no-repeat;
     background-color: #379fa9;
@@ -9,117 +11,127 @@ body {
     color: white;
     margin: 0;
   }
+
   p{
-    font-family: 'Crimson Pro', serif;
+    font-family: 'Crimson Pro', serif;  
   }
   
-  header {
-    display: flex;
-    padding: 5px;
-    width: 1200px;
-    margin: auto;
-  }
-  h1 {
-    margin: 30px;
-    padding: 20px;
+  header,
+  nav,
+  article,
+  footer {
+    
+    margin-bottom: 10px;
+    border-radius: 3px; 
   }
   
-  nav .navigation {
-    width: 1200px;
-    margin: auto;
+ 
+  
+  header,
+  article,
+  footer {
+    text-align: center;
   }
-  nav {
-    background-color: #f3f3f4;
+  
+  
+  footer {
+    padding: 20px 0;
+    background-color: rgba(5, 77, 90);
+    
+
   }
 
+  li a{
+    text-decoration: none;
+    color:burlywood;
+    
+  }
+  
+  nav {
+  
+    display: flex;
+    flex-direction: column;
+    background-color: azure;
+    color: black;
+  }
+  
   nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    display: flex;
-    justify-content:end;
+    flex-direction: column;
+    display: none;
+    justify-content: right;
+
+   
   }
-  nav li a {
+  
+  .show-items {
+    display: flex;
+  }
+  
+  nav ul li a {
+    color: black;
+    text-decoration: none;
     padding: 15px;
     display: inline-block;
-    text-decoration: none;
-    color: #191645;
+    
   }
-
+  
+  nav .toggle {
+    align-self: flex-end;
+    position: absolute;
+    cursor: pointer;
+    color: black;
+  }
   nav li a:hover {
     background-color: #379fa9;
     color: white;
   }
-
-  main h2 {
-    width: 1200px;
-    margin: auto;
-    padding: 30px;
-  }
-  #mainfigure {
-    text-align: center;
-    padding: 25px;
-    width: 1200px;
-    margin: auto;
-  }
-
-  article h3{
-      text-align: center;
+  article {
+    padding: 20px 0;
+    background-color: rgba(5, 77, 90, 0.8);
   }
   
-  article h2{
-     text-align: center;
- }
-
-  article p{
-     text-align: center;
-     width: 800px;
-     margin: auto;
-     padding: 25px;
- }
-
-  article ul{
-     text-align:center;
-     list-style-type: none;
-     margin: 0;
-     padding: 0;
-     display: flex;
-justify-content: center;
-flex-direction: column;
- }
-
- footer {
-  background-color: rgba(5, 77, 90);
-  color: white;
-  padding: 70px;
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    nav .menu-label {
+      display: none;
+    }
   
+    nav ul {
+      display: flex;
+      flex-direction: row;
+    }
   
-}
-footer .wrapper {
-  display: flex;
-  justify-content: space-around;
-
-}
-
-footer h4{
-  width: 1200px;
-  margin: auto;
-}
-
-li a{
-  text-decoration: none;
-  color:burlywood;
+    nav ul li {
+      padding-right: 8px;
+    }
   
+    nav .toggle {
+      display: none;
+    }
   
-}
-li a :hover{
-  color: #f3f3f4;
-}
+    main {
+      display: flex;
+    }
+  
+    article {
+      flex: 2 1 0;
+      margin-right: 10px;
+    }
+   
+    
+  }
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    nav ul,
+    main {
+      width: 1200px;
+      margin: 0 auto;
+    }
+   
+  }
 
-#contrast{
-  background-color: rgba(5, 77, 90, 0.8);
-  gap: 5px;
-  width: 1200px;
-  margin: auto;
-  margin-bottom: 25px;
-}
+  
